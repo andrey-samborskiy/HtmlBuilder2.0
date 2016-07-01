@@ -1,0 +1,35 @@
+{
+  "name": "htmlbuilder2.0",
+  "version": "1.0.0",
+  "description": "html builder",
+  "keywords": [
+    "html",
+    "build",
+    "sass",
+    "jade",
+    "webpack"
+  ],
+  "author": "Andrey Samborskiy <andyhell@mail.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.21.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}
