@@ -11,6 +11,10 @@
   ],
   "author": "Andrey Samborskiy <andyhell@mail.ru>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrey-samborskiy/HtmlBuilder2.0.git"
+  },
   "devDependencies": {
     "autoprefixer": "^6.3.7",
     "babel-core": "^6.10.4",
