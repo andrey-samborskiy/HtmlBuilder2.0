@@ -11,7 +11,16 @@
   ],
   "author": "Andrey Samborskiy <andyhell@mail.ru>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrey-samborskiy/HtmlBuilder2.0.git"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack-dev-server --progress",
+    "build": "NODE_ENV=production webpack --progress"
+  },
   "devDependencies": {
+    "autoprefixer": "^6.3.7",
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
@@ -23,6 +32,8 @@
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
     "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
