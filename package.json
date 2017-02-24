@@ -16,8 +16,9 @@
     "url": "https://github.com/andrey-samborskiy/HtmlBuilder2.0.git"
   },
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server --progress",
-    "build": "NODE_ENV=production webpack --progress"
+    "dev": "set NODE_ENV=development && webpack-dev-server",
+    "build": "set NODE_ENV=production && webpack",
+    "build-dev": "webpack"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.7",

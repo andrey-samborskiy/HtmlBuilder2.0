@@ -5,6 +5,6 @@
 import $ from 'jquery';
 
 $('img').on('click', ()=>{
-	let a = 4;
-	console.log(a);
+	let string = 'I`m jQuery';
+	console.log(string);
 });
