@@ -46,8 +46,8 @@ module.exports = {
 				include: [path.resolve(__dirname, 'src/static')],
 				loader: 'file-loader?name=assets/fonts/[name].[ext]' },
 			{
-				test: /\.jade$/,
-				loader: 'jade?pretty=true' }
+				test: /\.pug$/,
+				loader: 'pug?pretty=true' }
 		]
 	},
 
@@ -76,7 +76,7 @@ module.exports = {
 	plugins: [
 		new HtmlWebpackPlugin({  // for other files add new plugin
 			filename: 'index.html',
-			template: path.resolve('src/template/index.jade')
+			template: path.resolve('src/template/index.pug')
 		}),
 		new ExtractTextPlugin('main.css')
 	]
